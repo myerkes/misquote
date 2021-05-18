@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: misquote_production
-  username: misquote
-  password: <%= ENV['MISQUOTE_DATABASE_PASSWORD'] %>
+  database: <%= ENV['DATABASE_URL'] %>
+  # username: misquote
+  # password: <%= ENV['MISQUOTE_DATABASE_PASSWORD'] %>
