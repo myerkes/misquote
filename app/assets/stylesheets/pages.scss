@@ -2,9 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.main {
-    text-align: center;
+body {
     background: url('/assets/mainbackground.jpg') center;
     background-size: cover;
+    height: 100%;
+}
+
+.main {
+    text-align: center;
     font-family: 'Robo Mono', monospace;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 200px;
 }
