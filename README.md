@@ -3,12 +3,10 @@ Misquote - a Ruby on Rails Portfolio Project
 
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technologies
 
-Things you may want to cover:
-
-* Ruby version
+* Ruby version 2.7.3p183
+* Rails version 6.1.3.2
 
 * System dependencies
 
