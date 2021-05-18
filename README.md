@@ -1,3 +1,6 @@
+Misquote - a Ruby on Rails Portfolio Project
+==================
+
 # README
 
 This README would normally document whatever steps are necessary to get the
