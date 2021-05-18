@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
     def index
-        @quotes = Quote.all
+        @rand_quote = Quote.order(Arel.sql('RANDOM()')).first
     end
 end

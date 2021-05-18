@@ -3,14 +3,14 @@
         <div class="container">
             <h1>Welcome to MisQuote!</h1>
             <h2>Learn about all the lines you've (probably) been saying wrong.</h2>
-            <p class="btn btn-primary" id="new-quote-button">New Quote</p>
+            <p class="btn btn-primary" id="new-quote-button"><%= link_to "New Quote", root_path %></p>
         </div>
     </div>
     <div class="quote">
-        <% @quotes.each do |quote| %>
-        <h2 class="description"><%= quote.description %></h2>
-        <h3 class="quote-text">False Quote: <br>"<%= quote.false_quote %>"</h3>
-        <h3 class="quote-text">True Quote: <br>"<%= quote.true_quote %>"</h3>
-        <% end %>
+        <h2 class="description"><%= @rand_quote.description %></h2>
+        <h3 class="quote-text">False Quote:</h3>
+        <p>"<%= @rand_quote.false_quote %>"</p>
+        <h3 class="quote-text">True Quote:</h3>
+        <p>"<%= @rand_quote.true_quote %>"</p>
     </div>
 </div>
