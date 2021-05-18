@@ -7,6 +7,7 @@ Misquote - a Ruby on Rails Portfolio Project
 
 * Ruby version 2.7.3p183
 * Rails version 6.1.3.2
+* PostgreSQL 13.3
 
 * System dependencies
 
