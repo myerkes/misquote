@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Quote.create(true_quote: "No, I am your father.", false_quote: "Luke, I am your father.", description: "Star Wars - The Empire Strikes Back")
