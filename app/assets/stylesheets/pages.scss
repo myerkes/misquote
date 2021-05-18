@@ -8,10 +8,17 @@ body {
     height: 100%;
 }
 
+.header {
+    padding: 50px;
+}
+
+.header h1 {
+    font-size: 70px;
+}
+
 .main {
     text-align: center;
     font-family: 'Robo Mono', monospace;
     color: white;
     text-shadow: 2px 2px black;
-    padding-top: 200px;
 }

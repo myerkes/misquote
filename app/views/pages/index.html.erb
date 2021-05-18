@@ -8,8 +8,8 @@
     <div class="quote">
         <% @quotes.each do |quote| %>
         <h2 class="description"><%= quote.description %></h2>
-        <h3 class="quote-text"><%= quote.false_quote %></h3>
-        <h3 class="quote-text"><%= quote.true_quote %></h3>
+        <h3 class="quote-text">False Quote: <br>"<%= quote.false_quote %>"</h3>
+        <h3 class="quote-text">True Quote: <br>"<%= quote.true_quote %>"</h3>
         <p class="btn btn-primary">New Quote</p>
         <% end %>
     </div>
