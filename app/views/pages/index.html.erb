@@ -2,9 +2,15 @@
     <div class="header">
         <div class="container">
             <h1>Welcome to MisQuote!</h1>
-            <h2>Learn about all the lines you've (probably) been saying wrong!</h2>
+            <h2>Learn about all the lines you've (probably) been saying wrong.</h2>
         </div>
     </div>
     <div class="quote">
+        <% @quotes.each do |quote| %>
+        <h2 class="description"><%= quote.description %></h2>
+        <h3 class="quote"><%= quote.false_quote %></h3>
+        <h3 class="quote"><%= quote.true_quote %></h3>
+        <p class="btn btn-primary">New Quote</p>
+        <% end %>
     </div>
 </div>
