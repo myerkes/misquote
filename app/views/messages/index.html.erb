@@ -2,8 +2,21 @@
     <div class="header">
         <div class="container">
             <h1>Welcome to Mixed Messages!</h1>
-            <h2>Create random wacky messages using JavaScript to randomly generate them.</h2>
-            <%= link_to "New Message", root_path, class: "btn btn-primary", id: "new-quote-button"%>
+            <h2>Create random wacky limericks using JavaScript to randomly generate them.</h2>
+            <p class="btn btn-primary" id="new-message-button">New Message</p>
+        </div>
+        <div class="container">
+            <p id="line1">Line 1</p>
+            <p id="line2">Line 2</p>
+            <p id="line3">Line 3</p>
+            <p id="line4">Line 4</p>
+            <p id="line5">Line 5</p>
+        </div>
+        </div class="container">
+            <p>Original limericks by Edward Lear</p>
         </div>
     </div>
 </div>
+
+<!-- Import Javascript Functions -->
+<%= javascript_pack_tag 'functions' %>
