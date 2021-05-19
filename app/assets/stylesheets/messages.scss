@@ -1,0 +1,24 @@
+// Place all the styles related to the Messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+    background: url('/assets/mainbackground2.jpg') center;
+    background-size: cover;
+    height: 100%;
+}
+
+.header {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.main {
+    text-align: center;
+    font-family: 'Robo Mono', monospace;
+    color: white;
+    text-shadow: 2px 2px black;
+}

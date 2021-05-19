@@ -18,6 +18,11 @@
   </head>
 
   <body>
+    <!-- Navigation -->
+    <%= link_to "MisQuote", pages_path, :class=>"btn btn-primary"%>
+    <%= link_to "Mixed Messages", messages_path, :class=>"btn btn-primary"%>
+
+    <!-- Page Body -->
     <%= yield %>
 
     <!-- Import Javascript Functions -->
