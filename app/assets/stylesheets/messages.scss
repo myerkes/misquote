@@ -3,7 +3,8 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 body {
-    background: url('/assets/images/mainbackground2.jpg') center;
+    //background: url('/assets/images/mainbackground2.jpg') center;
+    background: asset-url("mainbackground2.jpg") center;
     background-size: cover;
     height: 100%;
 }
