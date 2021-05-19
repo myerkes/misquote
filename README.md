@@ -5,6 +5,7 @@ Misquote - a Ruby on Rails Portfolio Project
 The intent of this project was to practice creating a Ruby on Rails app that uses a PostgreSQL DB and deploy it to Heroku.
 It was created for the Mixed Messages problem promt on Codecademy. The scope of the prompt was only to generate random
 messages in JavaScript, but it presented an opportunity to practice other skills I had been working on.
+I creates 2 pages - 1 for testing the PostgreSQL implementation and one for generating the JavaScript messages.
 
 # Technologies
 
